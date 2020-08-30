@@ -1,0 +1,80 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "MyriadPro", sans-serif;
+  background-color: var(--color-white);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background: transparent;
+  white-space: nowrap;
+}
+
+textarea,
+button,
+input {
+  outline: none !important;
+  border: none;
+}
+
+.site-container {
+  overflow: hidden;
+}
+
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 893px;
+}
