@@ -1,0 +1,31 @@
+.blog-section {
+  padding: 57px 0;
+  background-image: url("../../images/content-bg.png");
+  background-repeat: repeat;
+  background-color: gray;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    width: 55px;
+    height: 55px;
+    background-color: #1d1d1d;
+    margin-right: 10px;
+  }
+
+  &__descr {
+    max-width: 216px;
+  }
+}

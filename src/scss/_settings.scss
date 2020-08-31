@@ -16,6 +16,7 @@ body {
 
 body {
   font-family: "MyriadPro", sans-serif;
+  font-size: 12px;
   background-color: var(--color-white);
 }
 
@@ -79,7 +80,18 @@ input {
   max-width: 1030px;
 }
 
+.col {
+  max-width: 320px;
+}
+
+.title-h3 {
+  color: #333;
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .btn-yellow {
+  position: relative;
   background-color: #e9cd6b;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
   color: #252525;
