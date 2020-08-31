@@ -76,5 +76,16 @@ input {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 893px;
+  max-width: 1030px;
+}
+
+.btn-yellow {
+  background-color: #e9cd6b;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+  color: #252525;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 14px;
+  padding: 14px 28px;
+  border-radius: 30px;
 }
