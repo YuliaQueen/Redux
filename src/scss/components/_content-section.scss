@@ -27,6 +27,7 @@
 
   &__img {
     position: relative;
+    max-width: 290px;
     margin-bottom: 20px;
 
     &::before {
@@ -43,6 +44,7 @@
   }
 
   &__button {
+    width: 100%;
     color: #888888;
     font-family: Georgia, serif;
     font-size: 11px;
@@ -51,7 +53,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.57);
-    padding: 5px 28px;
+    padding: 5px;
     text-align: center;
     box-shadow: inset 0 0 5px #b3b3b3;
     border-radius: 5px;
