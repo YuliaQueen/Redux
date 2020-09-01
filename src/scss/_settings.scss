@@ -98,7 +98,7 @@ input {
   font-family: Georgia, serif;
   font-style: italic;
   font-size: 14px;
-  padding: 14px 28px;
+  padding: 14px 18px;
   border-radius: 30px;
   overflow: hidden;
 
@@ -118,6 +118,10 @@ input {
       animation: move-light .6s
     }
   }
+
+  @media (min-width: 1200px) {
+    padding: 14px 24px;
+  }
 }
 
 @keyframes move-light {
@@ -127,5 +131,6 @@ input {
   to {
     transform: translateX(15em) skewX(-45deg);
   }
+
 }
 

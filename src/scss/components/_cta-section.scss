@@ -1,14 +1,24 @@
 .cta {
   padding: 38px 0 10px;
   background-color: #1d1d1d;
-  background-image: url("../../images/cta-bg.png");
-  background-repeat: no-repeat;
-  background-position: top;
+
+  @media (min-width: 1200px) {
+    background-image: url("../../images/cta-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
 
   &__columns {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
   }
 
   &__item {

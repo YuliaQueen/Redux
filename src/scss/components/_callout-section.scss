@@ -6,11 +6,17 @@
 
   &__container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 27px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
     border-radius: 3px;
+
+    @media (min-width: 1200px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 
   &__title {
