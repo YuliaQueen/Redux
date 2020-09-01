@@ -63,7 +63,11 @@
     font-size: 18px;
     font-weight: 300;
     max-width: 800px;
-    margin: 0 auto 54px;
+    margin: 0 auto 20px;
+
+    @media (min-width: 768px) {
+      margin: 0 auto 54px;
+    }
   }
 }
 

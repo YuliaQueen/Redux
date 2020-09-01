@@ -24,8 +24,13 @@
     justify-content: center;
     align-items: center;
 
-    @media (min-width: 1200px) {
+    @media (min-width: 768px) {
       flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    @media (min-width: 1200px) {
       justify-content: space-between;
     }
   }
