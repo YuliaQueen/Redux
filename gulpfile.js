@@ -40,6 +40,11 @@ const resources = () => {
     .pipe(dest('./app'))
 }
 
+const images = () => {
+  return src('./src/images/**')
+    .pipe(dest('./app'))
+}
+
 const imgToApp = () => {
   return src(['./src/img/**.jpg', './src/img/**.png', './src/img/**.jpeg'])
     .pipe(dest('./app/img'))
@@ -156,6 +161,7 @@ const watchFiles = () => {
   watch('./src/html/*.html', htmlInclude);
   watch('./src/index.html', htmlInclude);
   watch('./src/resources/**', resources);
+  watch('./src/images/**', images);
   watch('./src/img/**.jpg', imgToApp);
   watch('./src/img/**.jpeg', imgToApp);
   watch('./src/img/**.png', imgToApp);
