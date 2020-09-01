@@ -3,13 +3,14 @@
   background-image: url("../../images/content-bg.png");
   background-repeat: repeat;
   background-color: gray;
+  line-height: 20px;
 
   &__columns {
     display: flex;
     justify-content: space-between;
 
     p {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       color: #444444;
     }
   }
@@ -20,6 +21,7 @@
 
   &__img {
     position: relative;
+    margin-bottom: 20px;
 
     &::before {
       position: absolute;
@@ -40,7 +42,7 @@
     font-size: 11px;
     font-style: italic;
     line-height: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.57);
     padding: 5px 28px;
